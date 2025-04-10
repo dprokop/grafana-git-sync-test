@@ -151,7 +151,7 @@
           }
         ],
         "maxColumnCount": 3,
-        "rowHeightMode": "standard"
+        "rowHeightMode": "short"
       }
     },
     "links": [],
