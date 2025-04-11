@@ -138,7 +138,7 @@
     "layout": {
       "kind": "AutoGridLayout",
       "spec": {
-        "columnWidthMode": "standard",
+        "columnWidthMode": "narrow",
         "items": [
           {
             "kind": "AutoGridLayoutItem",
@@ -151,7 +151,7 @@
           }
         ],
         "maxColumnCount": 3,
-        "rowHeightMode": "standard"
+        "rowHeightMode": "short"
       }
     },
     "links": [],
