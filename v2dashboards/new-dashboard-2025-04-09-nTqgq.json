@@ -136,22 +136,23 @@
       }
     },
     "layout": {
-      "kind": "AutoGridLayout",
+      "kind": "GridLayout",
       "spec": {
-        "columnWidthMode": "standard",
         "items": [
           {
-            "kind": "AutoGridLayoutItem",
+            "kind": "GridLayoutItem",
             "spec": {
               "element": {
                 "kind": "ElementReference",
                 "name": "panel-1"
-              }
+              },
+              "height": 10,
+              "width": 8,
+              "x": 0,
+              "y": 0
             }
           }
-        ],
-        "maxColumnCount": 3,
-        "rowHeightMode": "standard"
+        ]
       }
     },
     "links": [],
