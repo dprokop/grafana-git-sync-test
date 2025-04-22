@@ -1,0 +1,73 @@
+{
+  "apiVersion": "dashboard.grafana.app/v1alpha1",
+  "kind": "Dashboard",
+  "metadata": {
+    "name": "b8cd4fb7-b69c-4a06-8392-fee335c725bf"
+  },
+  "spec": {
+    "annotations": {
+      "list": [
+        {
+          "builtIn": 1,
+          "datasource": {
+            "type": "grafana",
+            "uid": "-- Grafana --"
+          },
+          "enable": true,
+          "hide": true,
+          "iconColor": "rgba(0, 211, 255, 1)",
+          "name": "Annotations \u0026 Alerts",
+          "type": "dashboard"
+        }
+      ]
+    },
+    "editable": true,
+    "fiscalYearStartMonth": 0,
+    "graphTooltip": 0,
+    "id": null,
+    "links": [],
+    "panels": [
+      {
+        "description": "Welcome to the home dashboard!",
+        "fieldConfig": {
+          "defaults": {},
+          "overrides": []
+        },
+        "gridPos": {
+          "h": 8,
+          "w": 12,
+          "x": 6,
+          "y": 0
+        },
+        "id": 1,
+        "options": {
+          "code": {
+            "language": "plaintext",
+            "showLineNumbers": false,
+            "showMiniMap": false
+          },
+          "content": "# Welcome to the home dashboard!\n\n## Example of v1 schema home dashboard",
+          "mode": "markdown"
+        },
+        "pluginVersion": "11.5.0-pre",
+        "title": "Welcome",
+        "type": "text"
+      }
+    ],
+    "preload": false,
+    "refresh": "",
+    "schemaVersion": 41,
+    "tags": [],
+    "templating": {
+      "list": []
+    },
+    "time": {
+      "from": "now-6h",
+      "to": "now"
+    },
+    "timepicker": {},
+    "timezone": "browser",
+    "title": "Home Dashboard v1 schema",
+    "weekStart": ""
+  }
+}
