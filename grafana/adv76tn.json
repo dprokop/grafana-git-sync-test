@@ -43,7 +43,7 @@
           "description": "",
           "id": 1,
           "links": [],
-          "title": "New panel",
+          "title": "WHOAH New panel",
           "vizConfig": {
             "kind": "timeseries",
             "spec": {
@@ -89,7 +89,8 @@
                     "mode": "absolute",
                     "steps": [
                       {
-                        "color": "green"
+                        "color": "green",
+                        "value": 0
                       },
                       {
                         "color": "red",
