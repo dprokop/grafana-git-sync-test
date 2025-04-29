@@ -43,7 +43,7 @@
           "description": "",
           "id": 1,
           "links": [],
-          "title": "WHOAH New panel",
+          "title": "New panel",
           "vizConfig": {
             "kind": "timeseries",
             "spec": {
